@@ -1,4 +1,4 @@
-var socket = io.connect("localhost:3000", { forceNew: true });
+var socket = io.connect("https://chatbd.herokuapp.com/", { forceNew: true });
 console.log(socket);
 
 
