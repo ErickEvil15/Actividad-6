@@ -9,15 +9,15 @@ const createPool = require('mysql2/promise');
 const moment = require('moment'); 
 
 
-const DB_HOST = process.env.DB_HOST || 'localhost'
+const DB_HOST = process.env.DB_HOST || 'containers-us-west-163.railway.app'
 
 const DB_USER = process.env.DB_USER || 'root'
 
-const DB_PASSWORD = process.env.DB_PASSWORD || 'n0m3l0'
+const DB_PASSWORD = process.env.DB_PASSWORD || 'Nn5LMU9Zv6RkwEftvfid'
 
-const DB_NAME = process.env.DB_NAME || 'daggabd'
+const DB_NAME = process.env.DB_NAME || 'railway'
 
-const DB_PORT = process.env.DB_PORT || 3306
+const DB_PORT = process.env.DB_PORT || 6620
 
 
 
