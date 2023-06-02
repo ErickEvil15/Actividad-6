@@ -81,8 +81,8 @@ io.on('connection', (socket) => {
         const q = `SELECT * FROM mchat WHERE (remitente = ? AND destinatario = ?) OR (remitente = ? AND destinatario = ?)`;
         const params = [idrem, iddes, iddes, idrem];
     
-  
         const [respuesta] = await pool.query(q,params)
+        console.log([respuesta])
         var chatHTML=``
         var i = 0
         respuesta.forEach(mchat=>{
